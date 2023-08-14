@@ -3,17 +3,26 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Lunng的小站</title>
-		<link href="class.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="class.css"/>
 	</head>
 	<body>
 		<main>
-			<h1>Lunng的小站</h1>
-			<section class="center-section">
-				<h2>简述</h2>
+			<h1 class="center">Lunng的小站</h1>
+			<section>
+				<div class="card" onclick="github()">
+				<h2 class="center">简述</h2>
+				<div class="space">
 				<p>你好啊，我是Lunng，欢迎来到这里</p>
-				<p>当然这只是一个试验</p>
-				<p>你可以访问我的<a href="https://github.com/Lunngw/">Github</a></p>
+				<p>这是我使用GitHub创建的个人网页</p>
+				<p>你可以点击这张卡片来访问我的GitHub</p>
+				</div>
+				</div>
 			</section>
 		</main>
+		<script>
+			function github()	{
+				location.href = 'https://github.com/Lunngw/';
+			}
+		</script>
 	</body>
 </html>
